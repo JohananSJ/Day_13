@@ -1,0 +1,196 @@
+body {
+
+    background: linear-gradient(135deg, #121212, #1E1E1E);
+
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+
+    padding: 20px;
+}
+
+.container {
+
+    width: 550px;
+
+    margin: 30px auto;
+
+    background-color: #ffeb79;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.5);
+
+    transition: 0.3s;
+}
+
+.container:hover {
+
+    transform: translateY(-3px);
+}
+
+h1 {
+
+    text-align: center;
+
+    color: #000000;
+
+    letter-spacing: 2px;
+}
+
+h2 {
+
+    color: #000000;
+
+    border-left: 5px solid #D4AF37;
+
+    padding-left: 10px;
+
+    margin-top: 25px;
+}
+
+.subtitle {
+
+    text-align: center;
+
+    color: #555;
+
+    margin-bottom: 25px;
+}
+
+label {
+
+    font-weight: bold;
+
+    color: #000000;
+}
+
+input,
+select,
+textarea {
+
+    width: 100%;
+
+    padding: 12px;
+
+    margin-top: 5px;
+
+    margin-bottom: 15px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 8px;
+
+    box-sizing: border-box;
+
+    transition: 0.3s;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+
+    outline: none;
+
+    border: 2px solid #D4AF37;
+
+    box-shadow: 0px 0px 10px rgba(212, 175, 55, 0.4);
+}
+
+.radio-group,
+.checkbox-group {
+
+    color: #000000;
+
+    margin-top: 10px;
+}
+
+.radio-group input,
+.checkbox-group input {
+
+    width: auto;
+}
+
+.button-group {
+
+    text-align: center;
+}
+
+input[type="submit"] {
+
+    background-color: #D4AF37;
+
+    color: #121212;
+
+    border: none;
+
+    padding: 12px 20px;
+
+    border-radius: 25px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    margin-right: 10px;
+
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+
+    background-color: #121212;
+
+    color: #D4AF37;
+
+    transform: scale(1.05);
+}
+
+input[type="reset"] {
+
+    background-color: #444;
+
+    color: white;
+
+    border: none;
+
+    padding: 12px 20px;
+
+    border-radius: 25px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+input[type="reset"]:hover {
+
+    background-color: #222;
+
+    transform: scale(1.05);
+}
+
+::placeholder {
+
+    color: #888;
+}
+
+hr {
+
+    border: 1px solid #D4AF37;
+
+    margin-top: 25px;
+}
+
+.footer-note {
+
+    text-align: center;
+
+    color: #666;
+
+    font-size: 14px;
+}

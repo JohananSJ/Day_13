@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style_regform.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🎓 Student Registration Form</h1>
+
+        <p class="subtitle">
+            Complete the form below to register for the course.
+        </p>
+
+        <form>
+
+            <h2>Personal Details</h2>
+
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" placeholder="Enter your full name" required>
+            <br><br>
+
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" placeholder="Enter your email" required>
+            <br><br>
+
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" placeholder="Enter your phone number">
+            <br><br>
+
+            <label for="age">Age:</label><br>
+            <input type="number" id="age" min="18" max="100">
+            <br><br>
+
+            <label>Gender:</label><br>
+
+            <div class="radio-group">
+                <input type="radio" name="gender"> Male
+                <input type="radio" name="gender"> Female
+                <input type="radio" name="gender"> Other
+            </div>
+
+            <br>
+
+            <h2>Course Details</h2>
+
+            <label for="course">Select Course:</label><br>
+
+            <select id="course">
+
+                <option>Python</option>
+                <option>Web Development</option>
+                <option>Database Management</option>
+                <option>API Development</option>
+
+            </select>
+
+            <br><br>
+
+            <label>Skills:</label><br>
+
+            <div class="checkbox-group">
+
+                <input type="checkbox"> Python
+                <input type="checkbox"> HTML
+                <input type="checkbox"> SQL
+                <input type="checkbox"> GitHub
+
+            </div>
+
+            <br>
+
+            <label for="address">Address:</label><br>
+
+            <textarea id="address"
+                rows="4"
+                placeholder="Enter your address"></textarea>
+
+            <br><br>
+
+            <h2>Account Security</h2>
+
+            <label for="password">Password:</label><br>
+
+            <input type="password"
+                id="password"
+                placeholder="Create a password"
+                required>
+
+            <br><br>
+
+            <div class="button-group">
+
+                <input type="submit" value="Register">
+
+                <input type="reset" value="Clear Form">
+
+            </div>
+
+        </form>
+
+        <hr>
+
+        <p class="footer-note">
+            Your information is used only for registration purposes.
+        </p>
+
+    </div>
+
+</body>
+
+</html>
