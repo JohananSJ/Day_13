@@ -156,3 +156,30 @@ hr {
 
     margin-bottom: 20px;
 }
+.register-btn {
+
+    display: inline-block;
+
+    background-color: #D4AF37;
+
+    color: #121212;
+
+    padding: 12px 24px;
+
+    border-radius: 25px;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.register-btn:hover {
+
+    background-color: #121212;
+
+    color: #D4AF37;
+
+    transform: scale(1.05);
+}
